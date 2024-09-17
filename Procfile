@@ -1,1 +1,1 @@
-web: gunicorn --chdir src railway_python_test.app:app
+web: gunicorn app:app
