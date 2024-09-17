@@ -3,7 +3,11 @@ name = "railway-python-test"
 version = "0.2.0"
 description = "Add your description here"
 authors = [{ name = "M.Nakanishi", email = "contact114514@nakanishi.dev" }]
-dependencies = ["fastapi>=0.114.2", "gunicorn>=23.0.0"]
+dependencies = [
+    "fastapi>=0.114.2",
+    "gunicorn>=23.0.0",
+    "uvicorn>=0.30.6",
+]
 readme = "README.md"
 requires-python = ">= 3.8"
 
